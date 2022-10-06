@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        max-width: 1300px;
+        margin:auto;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    /* logo */
+    a {
+        text-decoration: none;
+    }
+    img {
+        width: 150px;
+    }
+    /* menu */
+    ul.menu li{
+        display: inline;
+        margin-left: 14px;
+    }
+    section {
+        font-size: 18px;
+    }
+    section a {
+        color: #000;
+    }
+    /* search */
+    div {
+        display: flex;
+        flex-flow: column;
+        align-items: flex-end;
+    }
+    input {
+        font-size: 15px;
+    }
+    select {
+        font-size: 16px;
+    }
+    button img {
+        width: 13px;
+    }
+    /* Main */
+    main ul{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+    }
+    main ul li{
+        margin-left: 10px;
+    }
+    main ul li:first-child{
+        margin-left: 0px;
+    }
+    main ul img{
+        width: 100%;
+    }
+
+</style>
+<body>
+    <!-- Header -->
+    <header>
+        <a href="#">
+           <img src="./images/logo.png" />
+        </a>
+        <div>
+            <section>
+            <!-- Menu -->
+            <ul class="menu">
+                <li>
+                    <a href="#">Trang chủ</a> 
+                </li>
+                <li>
+                    <a href="#">Về mình</a> 
+                </li>
+                <li>
+                    <a href="#">Hỏi & đáp</a> 
+                </li>
+                <li>
+                    <a href="#">Liên hệ</a> 
+                </li>
+            </ul>
+            </section>
+            <!-- Search -->
+            <form action="#">
+                <input type="text" placeholder="Tìm kiếm" />
+                <select name="" id="">
+                    <option value="1">Lọc</option>
+                </select>
+                <button>
+                    <img src="/images/icon search.png" />
+                </button>
+            </form>
+        </div>
+    </header>
+    <!-- Main -->
+    <main>
+        <ul class="">
+            <li>
+               <img src=".\sliders\1.jpg" alt="">
+            </li>
+            <li>
+                <img src=".\sliders\2.jpg" alt="">
+            </li>
+            <li>
+                <img src=".\sliders\3.jpg" alt="">
+            </li>
+        </ul>
+    </main>
+</body>
+</html>
